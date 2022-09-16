@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./Dictionary.css";
 import axios from "axios";
+import Results from "./Results.js";
 
 export default function Dictionary() {
 	let [query, setQuery] = useState(null);
+	let [results, setResults] = useState(null);
 	function search(event) {
 		event.preventDefault();
 		let apiURL = `https://api.dictionaryapi.dev/api/v2/entries/en/${query}`;
@@ -11,7 +13,7 @@ export default function Dictionary() {
 	}
 
 	function showDefinition(response) {
-		console.log(response.data[0]);
+		setResults(response.data[0]);
 	}
 
 	function getQuery(event) {
@@ -23,6 +25,7 @@ export default function Dictionary() {
 				<input type="search" onChange={getQuery} />
 				<input type="submit" className="search-submit-btn btn btn-primary" />
 			</form>
+			<Results results={results} />
 		</div>
 	);
 }
