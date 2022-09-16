@@ -1,27 +1,63 @@
+:root {
+	--main-font: "Nunito", sans-serif;
+	--main-font-color: #272142;
+
+	--highlight-blue: #0ba2ac;
+}
+
+
+
+h1, form{
+  font-weight: bold;
+  text-align:center;
+  color:var(--highlight-blue)
+}
+
+
+
+h2{
+ color: var(--highlight-blue);
+ text-transform: capitalize;}
+ 
+ h3{
+   color: var(--main-font-color);
+   font-size: 30px; 
+}
+
+section{
+  background: #f8fcfb;
+  margin: 10px;
+  padding:10px;
+  border-radius:5px;
+box-shadow: 3px 5px 9px 1px rgba(36,114,145,0.10);
+}
+
+
 .dictionary {
   text-align: left;
+  font-family: var(--main-font);
 }
 .search-submit-btn{
   margin:10px;
-  padding: 0px, 10px
+  padding: 0px, 10px;
+  background: white;
+  border: 1px solid #247291;
+  color: var(--highlight-blue);
+  border-radius: 3px;
+}
+.search-submit-btn:hover{
+  background: #247291;
+  border: 1px solid #247291;
+  color: white
 }
 
 .meaning-example{
   font-style: italic;
   font-size: 12px;
+  line-height: 12px;
 }
 
-h1, form{
-  font-weight: 800;
-  text-align:center;
-}
-h2,h3{
-  text-align:left
-}
 
-h2{
-color:darkblue;
-}
 
 
 

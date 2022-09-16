@@ -1,4 +1,9 @@
-
-
-
-
+.App{
+  background: white
+}
+.App-Footer{
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  margin: 20px
+}
