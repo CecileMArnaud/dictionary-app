@@ -88,6 +88,10 @@ box-shadow: 3px 5px 9px 1px rgba(36,114,145,0.10);
     font-family: 'Courier New', Courier, monospace;
 
 }
+.imageGallery img{
+  margin:5px;
+  border-radius: 5px;
+}
 
 
 
