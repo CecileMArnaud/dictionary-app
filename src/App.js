@@ -1,24 +1,17 @@
 import "./App.css";
+import Dictionary from "./Dictionary.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
+export default function App() {
 	return (
-		<div className="App">
+		<div className="App container">
 			<header className="App-header">
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
-				<a
-					className="App-link btn btn-primary"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
+				<h1>Dictionary</h1>
 			</header>
+			<main>
+				<Dictionary />
+			</main>
+			<footer className="App-Footer">Coded with React</footer>
 		</div>
 	);
 }
-
-export default App;
