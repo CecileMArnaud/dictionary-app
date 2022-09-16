@@ -53,11 +53,41 @@ box-shadow: 3px 5px 9px 1px rgba(36,114,145,0.10);
 
 .meaning-example{
   font-style: italic;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 12px;
+  color:rgba(0,0,0,0.5)
 }
 
+.phoentic a{
+  text-decoration: none;
+  color:var(--highlight-blue);
+  border: 1px solid var(--highlight-blue);
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin:10px
+}
 
+.phoentic{
+  margin: 20px;
+  
+}
+.phoentic a:hover{
+  color:White;
+  border: 1px solid var(--highlight-blue);
+  background: var(--highlight-blue);
+}
+.phoentic span{
+  font-family: 'Courier New', Courier, monospace;
+  margin:10px
+}
+
+.Synonyms ul{
+  display: inline-block;
+  list-style-type: none ;
+  color:var(--highlight-blue);
+    font-family: 'Courier New', Courier, monospace;
+
+}
 
 
 
