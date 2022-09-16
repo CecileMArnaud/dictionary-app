@@ -1,7 +1,27 @@
 .dictionary {
-  text-align: center;
+  text-align: left;
 }
 .search-submit-btn{
   margin:10px;
   padding: 0px, 10px
 }
+
+.meaning-example{
+  font-style: italic;
+  font-size: 12px;
+}
+
+h1, form{
+  font-weight: 800;
+  text-align:center;
+}
+h2,h3{
+  text-align:left
+}
+
+h2{
+color:darkblue;
+}
+
+
+

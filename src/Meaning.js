@@ -12,7 +12,7 @@ export default function Meaning(props) {
 							<li key={index}>
 								{definition.definition}
 								<br />
-								<span className="example">{definition.example}</span>
+								<span className="meaning-example">{definition.example}</span>
 							</li>
 						</ul>
 					);
